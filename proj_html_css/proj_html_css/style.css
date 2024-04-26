@@ -95,36 +95,6 @@
 .dados p {
     font-size: 1.2rem;
 }
-/* Estilos para a seção 'Projetos' */
-.projetos {
-    padding: 1px;
-    background-color: #b3cde0;
-    text-align: center;
-    color: #1a1a1a;
-}
-
-.projetos h2 {
-    font-size: 2rem;
-}
-
-.projetos p {
-    font-size: 1.2rem;
-}
-/* Estilos para a seção 'Contatos' */
-.Contatos {
-    padding: 50px;
-    background-color: #0d0d0e;
-    text-align: center;
-    color: #ffffff;
-}
-
-.Contatos h2 {
-    font-size: 2rem;
-}
-
-.Contatos p {
-    font-size: 1.2rem;
-}
 
 /* Media query para telas menores */
 @media only screen and (max-width: 768px) {

@@ -40,6 +40,34 @@
 .nav li a:hover {
     color: #b3cde0; /* Azul mais claro ao passar o mouse */
 }
+.sidebar {
+    width: 80px;
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 50px;
+    border-radius: px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.sidebar a:hover {
+    color: #b3cde0;
+}
+
 
 /* Estilos para a seção 'home' */
 .home {
@@ -93,6 +121,39 @@
 }
 
 .dados p {
+    font-size: 1.2rem;
+}
+/* Estilos para a seção 'Projetos' */
+.projetos {
+    padding: 1px;
+    background-color: #b3cde0;
+    text-align: center;
+    color: #1a1a1a;
+}
+
+.projetos h2 {
+    font-size: 2rem;
+}
+
+.projetos p {
+    font-size: 1.2rem;
+}
+
+/* Estilos para a seção 'Contatos' */
+
+.Contatos {
+    padding: 50px;
+    background-color: #0d0d0e;
+    text-align: center;
+    color: #ffffff;
+   
+}
+
+.Contatos h2 {
+    font-size: 2rem;
+}
+
+.Contatos p {
     font-size: 1.2rem;
 }
 
