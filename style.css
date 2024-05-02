@@ -1,0 +1,205 @@
+/* Estilos para a barra de navegação */
+.nav {
+    background-color: #1a1a1a; /* Preto */
+    height: 10vh;
+    display: flex;
+    align-items: center; /* Centralizar verticalmente */
+}
+
+.nav img {
+    width: 50px;
+    border-radius: 30%;
+    margin-left: 20px;
+}
+
+.nav h1 {
+    margin-left: 20px;
+    font-size: 1.5rem;
+    color: #fff; /* Branco */
+}
+
+.nav ul {
+    list-style: none;
+    margin-left: auto; /* Empurrar os itens para a direita */
+    margin-right: 20px;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s; /* Transição suave de cor */
+}
+
+.nav li a:hover {
+    color: #b3cde0; /* Azul mais claro ao passar o mouse */
+}
+.sidebar {
+    font-size: 12px;
+    background-color: #1a1a1a;
+    width: 10px;
+    color: #fff;
+    padding: 40px;
+    border-radius: px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.sidebar a:hover {
+    color: #b3cde0;
+}
+
+
+/* Estilos para a seção 'home' */
+.home {
+    padding: 50px;
+    text-align: center; /* Centralizar texto */
+}
+
+.home h1 {
+    font-size: 2.5rem;
+    color: #1a1a1a;
+}
+
+.home p {
+    font-size: 1.2rem;
+    color: #666; /* Cinza escuro */
+}
+
+.home img {
+    background-color: #b3cde0;
+    max-width: 50%; /* Ajuste a largura máxima da imagem */
+    border-radius: 15px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(82, 226, 245, 0.356); /* Sombra suave */
+}
+
+/* Estilos para a seção 'sobre' */
+.sobre {
+    background-color: #b3cde0;
+    text-align: center;
+    color: #1a1a1a;
+}
+
+.sobre h2 {
+    font-size: 2rem;
+}
+
+.sobre p {
+    font-size: 1.2rem;
+}
+
+/* Estilos para a seção 'dados' */
+.dados {
+    padding: 50px;
+    text-align: center;
+    background-color: #1a1a1a; /* Preto */
+    color: #fff;
+}
+
+.dados h2 {
+    font-size: 2rem;
+}
+
+.dados p {
+    font-size: 1.2rem;
+}
+/* Estilos para a seção 'Projetos' */
+.projetos {
+    padding: 1px;
+    background-color: #b3cde0;
+    text-align: center;
+    color: #1a1a1a;
+}
+
+.projetos h2 {
+    font-size: 2rem;
+}
+
+.projetos p {
+    font-size: 1.2rem;
+}
+
+/* Estilos para a seção 'Contatos' */
+
+.contatos {
+    padding: 50px;
+    background-color: #0d0d0e;
+    text-align: center;
+    color: #ffffff;
+   
+}
+#icone{
+    color: #b3cde0;
+    font-size: 30px;
+}
+#icone1{
+    font-size: 30px;
+    color: #b3cde0;
+}
+#icone2{
+    font-size: 30px;
+    color: #b3cde0;
+}
+.contatos h2 {
+    font-size: 2rem;
+}
+
+.contatos p {
+    font-size: 1.2rem;
+}
+
+/* Media query para telas menores */
+@media only screen and (max-width: 768px) {
+    .nav img {
+        width: 40px; /* Reduz a largura da imagem na barra de navegação */
+    }
+
+    .nav h1 {
+        font-size: 1.2rem; /* Reduz o tamanho da fonte do título na barra de navegação */
+    }
+
+    .nav ul {
+        display: none; /* Oculta a lista de links na barra de navegação em telas menores */
+    }
+
+    .nav li {
+        display: none; /* Oculta os itens da lista na barra de navegação em telas menores */
+    }
+
+    .home {
+        padding: 20px; /* Reduz o padding da seção 'home' em telas menores */
+    }
+
+    .home h1 {
+        font-size: 2rem; /* Reduz o tamanho da fonte do título na seção 'home' em telas menores */
+    }
+
+    .home p {
+        font-size: 1rem; /* Reduz o tamanho da fonte do texto na seção 'home' em telas menores */
+    }
+
+    .home img {
+        max-width: 60%; /* Ajusta a largura máxima da imagem na seção 'home' em telas menores */
+    }
+}

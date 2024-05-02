@@ -42,10 +42,10 @@
 }
 .sidebar {
     width: 80px;
-    background-color: #1a1a1a;
-    color: #fff;
+    background-color: #ffffff;
+    color: rgb(255, 254, 254);
     padding: 50px;
-    border-radius: px;
+    
 }
 
 .sidebar ul {
@@ -60,7 +60,7 @@
 .sidebar a {
     display: block;
     text-decoration: none;
-    color: #fff;
+    color: rgb(5, 5, 5);
     transition: color 0.3s;
 }
 
@@ -141,19 +141,18 @@
 
 /* Estilos para a seção 'Contatos' */
 
-.Contatos {
-    padding: 50px;
-    background-color: #0d0d0e;
+.contatos {
+    padding: 1px;
     text-align: center;
-    color: #ffffff;
-   
+    background-color: #1a1a1a; /* Preto */
+    color: #fff;
 }
 
-.Contatos h2 {
+.contatos h2 {
     font-size: 2rem;
 }
 
-.Contatos p {
+.contatos p {
     font-size: 1.2rem;
 }
 
