@@ -40,6 +40,34 @@
 .nav li a:hover {
     color: #b3cde0; /* Azul mais claro ao passar o mouse */
 }
+.sidebar {
+    width: 80px;
+    background-color: #ffffff;
+    color: rgb(255, 254, 254);
+    padding: 50px;
+    
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    display: block;
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    transition: color 0.3s;
+}
+
+.sidebar a:hover {
+    color: #b3cde0;
+}
+
 
 /* Estilos para a seção 'home' */
 .home {
@@ -93,6 +121,38 @@
 }
 
 .dados p {
+    font-size: 1.2rem;
+}
+/* Estilos para a seção 'Projetos' */
+.projetos {
+    padding: 1px;
+    background-color: #b3cde0;
+    text-align: center;
+    color: #1a1a1a;
+}
+
+.projetos h2 {
+    font-size: 2rem;
+}
+
+.projetos p {
+    font-size: 1.2rem;
+}
+
+/* Estilos para a seção 'Contatos' */
+
+.contatos {
+    padding: 1px;
+    text-align: center;
+    background-color: #1a1a1a; /* Preto */
+    color: #fff;
+}
+
+.contatos h2 {
+    font-size: 2rem;
+}
+
+.contatos p {
     font-size: 1.2rem;
 }
 

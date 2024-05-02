@@ -41,11 +41,12 @@
     color: #b3cde0; /* Azul mais claro ao passar o mouse */
 }
 .sidebar {
-    width: 80px;
-    background-color: #ffffff;
-    color: rgb(255, 254, 254);
-    padding: 50px;
-    
+    font-size: 12px;
+    background-color: #1a1a1a;
+    width: 10px;
+    color: #fff;
+    padding: 40px;
+    border-radius: px;
 }
 
 .sidebar ul {
@@ -60,7 +61,7 @@
 .sidebar a {
     display: block;
     text-decoration: none;
-    color: rgb(5, 5, 5);
+    color: #fff;
     transition: color 0.3s;
 }
 
@@ -142,12 +143,24 @@
 /* Estilos para a seção 'Contatos' */
 
 .contatos {
-    padding: 1px;
+    padding: 50px;
+    background-color: #0d0d0e;
     text-align: center;
-    background-color: #1a1a1a; /* Preto */
-    color: #fff;
+    color: #ffffff;
+   
 }
-
+#icone{
+    color: #b3cde0;
+    font-size: 30px;
+}
+#icone1{
+    font-size: 30px;
+    color: #b3cde0;
+}
+#icone2{
+    font-size: 30px;
+    color: #b3cde0;
+}
 .contatos h2 {
     font-size: 2rem;
 }
